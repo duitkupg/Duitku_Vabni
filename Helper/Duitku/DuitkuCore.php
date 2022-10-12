@@ -1,7 +1,5 @@
 <?php
-namespace Duitku\Vabni\Helper\Duitku;
-// include_once('ApiRequestor.php');
-use Duitku\Vabni\Helper\Duitku\Duitku_Vabni_ApiRequestor;
+include_once('ApiRequestor.php');
 class Duitku_Vabni_Core {
 
   public static function getRedirectionUrl($baseUrl, $params)
